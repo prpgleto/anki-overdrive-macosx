@@ -7,6 +7,8 @@ UI controller for 3 cars. The objective was to quicky build an osx app that coul
 
 ![](https://github.com/prpgleto/anki-overdrive-macosx/raw/master/controller_app.png)
 
+[Download App](https://github.com/prpgleto/anki-overdrive-macosx/raw/master/build/AnkiOverDriveController.zip)
+
 This project was based on [jeff's anki-controller](https://github.com/jeff-1amstudios/anki-controller)      
 
 
