@@ -94,6 +94,7 @@ class ViewController: NSViewController {
         }
     }
     
+    
     func searchVehicles(){
         self.appendInfo(msg: "Vehicles:")
         for v in self.controller.vehicles {
