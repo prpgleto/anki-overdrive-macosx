@@ -13,6 +13,16 @@
 		3A698162219F62E8007C8345 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A698160219F62E8007C8345 /* Main.storyboard */; };
 		3A69816E219F62E8007C8345 /* testUIMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A69816D219F62E8007C8345 /* testUIMacTests.swift */; };
 		3A698179219F62E8007C8345 /* testUIMacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A698178219F62E8007C8345 /* testUIMacUITests.swift */; };
+		3A698188219F8BA4007C8345 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A698187219F8BA4007C8345 /* Cocoa.framework */; };
+		3A69818A219F8BAF007C8345 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A698189219F8BAF007C8345 /* CoreBluetooth.framework */; };
+		3A69819D219F8D0D007C8345 /* advertisement.c in Sources */ = {isa = PBXBuildFile; fileRef = 3A69818F219F8D0D007C8345 /* advertisement.c */; };
+		3A69819E219F8D0D007C8345 /* anki_util.c in Sources */ = {isa = PBXBuildFile; fileRef = 3A698191219F8D0D007C8345 /* anki_util.c */; };
+		3A69819F219F8D0D007C8345 /* eir.c in Sources */ = {isa = PBXBuildFile; fileRef = 3A698192219F8D0D007C8345 /* eir.c */; };
+		3A6981A0219F8D0D007C8345 /* protocol.c in Sources */ = {isa = PBXBuildFile; fileRef = 3A698194219F8D0D007C8345 /* protocol.c */; };
+		3A6981A1219F8D0D007C8345 /* uuid.c in Sources */ = {isa = PBXBuildFile; fileRef = 3A698196219F8D0D007C8345 /* uuid.c */; };
+		3A6981A2219F8D0D007C8345 /* VehiclesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A69819A219F8D0D007C8345 /* VehiclesController.m */; };
+		3A6981A3219F8D0D007C8345 /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A69819C219F8D0D007C8345 /* Vehicle.m */; };
+		3A6981B0219F9654007C8345 /* NBCoreBluetoothAPIMisuseGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6981AF219F9654007C8345 /* NBCoreBluetoothAPIMisuseGuard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +56,26 @@
 		3A698174219F62E8007C8345 /* testUIMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUIMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A698178219F62E8007C8345 /* testUIMacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUIMacUITests.swift; sourceTree = "<group>"; };
 		3A69817A219F62E8007C8345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A698187219F8BA4007C8345 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3A698189219F8BAF007C8345 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		3A69818D219F8D0D007C8345 /* protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = protocol.h; sourceTree = "<group>"; };
+		3A69818E219F8D0D007C8345 /* vehicle_gatt_profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vehicle_gatt_profile.h; sourceTree = "<group>"; };
+		3A69818F219F8D0D007C8345 /* advertisement.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = advertisement.c; sourceTree = "<group>"; };
+		3A698190219F8D0D007C8345 /* uuid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uuid.h; sourceTree = "<group>"; };
+		3A698191219F8D0D007C8345 /* anki_util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = anki_util.c; sourceTree = "<group>"; };
+		3A698192219F8D0D007C8345 /* eir.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = eir.c; sourceTree = "<group>"; };
+		3A698193219F8D0D007C8345 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		3A698194219F8D0D007C8345 /* protocol.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = protocol.c; sourceTree = "<group>"; };
+		3A698195219F8D0D007C8345 /* advertisement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = advertisement.h; sourceTree = "<group>"; };
+		3A698196219F8D0D007C8345 /* uuid.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uuid.c; sourceTree = "<group>"; };
+		3A698197219F8D0D007C8345 /* anki_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = anki_util.h; sourceTree = "<group>"; };
+		3A698198219F8D0D007C8345 /* eir.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eir.h; sourceTree = "<group>"; };
+		3A698199219F8D0D007C8345 /* Vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
+		3A69819A219F8D0D007C8345 /* VehiclesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehiclesController.m; sourceTree = "<group>"; };
+		3A69819B219F8D0D007C8345 /* VehiclesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehiclesController.h; sourceTree = "<group>"; };
+		3A69819C219F8D0D007C8345 /* Vehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vehicle.m; sourceTree = "<group>"; };
+		3A6981AB219F8E31007C8345 /* testUIMac-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "testUIMac-Bridging-Header.h"; path = "../testUIMac-Bridging-Header.h"; sourceTree = "<group>"; };
+		3A6981AF219F9654007C8345 /* NBCoreBluetoothAPIMisuseGuard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBCoreBluetoothAPIMisuseGuard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +83,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A69818A219F8BAF007C8345 /* CoreBluetooth.framework in Frameworks */,
+				3A698188219F8BA4007C8345 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +112,7 @@
 				3A69816C219F62E8007C8345 /* testUIMacTests */,
 				3A698177219F62E8007C8345 /* testUIMacUITests */,
 				3A698158219F62E6007C8345 /* Products */,
+				3A698186219F8BA4007C8345 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,12 +129,15 @@
 		3A698159219F62E6007C8345 /* testUIMac */ = {
 			isa = PBXGroup;
 			children = (
+				3A69818B219F8D0D007C8345 /* anki */,
 				3A69815A219F62E6007C8345 /* AppDelegate.swift */,
 				3A69815C219F62E6007C8345 /* ViewController.swift */,
 				3A69815E219F62E8007C8345 /* Assets.xcassets */,
 				3A698160219F62E8007C8345 /* Main.storyboard */,
 				3A698163219F62E8007C8345 /* Info.plist */,
 				3A698164219F62E8007C8345 /* testUIMac.entitlements */,
+				3A6981AB219F8E31007C8345 /* testUIMac-Bridging-Header.h */,
+				3A6981AF219F9654007C8345 /* NBCoreBluetoothAPIMisuseGuard.m */,
 			);
 			path = testUIMac;
 			sourceTree = "<group>";
@@ -122,6 +158,46 @@
 				3A69817A219F62E8007C8345 /* Info.plist */,
 			);
 			path = testUIMacUITests;
+			sourceTree = "<group>";
+		};
+		3A698186219F8BA4007C8345 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A698189219F8BAF007C8345 /* CoreBluetooth.framework */,
+				3A698187219F8BA4007C8345 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A69818B219F8D0D007C8345 /* anki */ = {
+			isa = PBXGroup;
+			children = (
+				3A69818C219F8D0D007C8345 /* anki_sdk */,
+				3A698199219F8D0D007C8345 /* Vehicle.h */,
+				3A69819A219F8D0D007C8345 /* VehiclesController.m */,
+				3A69819B219F8D0D007C8345 /* VehiclesController.h */,
+				3A69819C219F8D0D007C8345 /* Vehicle.m */,
+			);
+			path = anki;
+			sourceTree = "<group>";
+		};
+		3A69818C219F8D0D007C8345 /* anki_sdk */ = {
+			isa = PBXGroup;
+			children = (
+				3A69818D219F8D0D007C8345 /* protocol.h */,
+				3A69818E219F8D0D007C8345 /* vehicle_gatt_profile.h */,
+				3A69818F219F8D0D007C8345 /* advertisement.c */,
+				3A698190219F8D0D007C8345 /* uuid.h */,
+				3A698191219F8D0D007C8345 /* anki_util.c */,
+				3A698192219F8D0D007C8345 /* eir.c */,
+				3A698193219F8D0D007C8345 /* common.h */,
+				3A698194219F8D0D007C8345 /* protocol.c */,
+				3A698195219F8D0D007C8345 /* advertisement.h */,
+				3A698196219F8D0D007C8345 /* uuid.c */,
+				3A698197219F8D0D007C8345 /* anki_util.h */,
+				3A698198219F8D0D007C8345 /* eir.h */,
+			);
+			path = anki_sdk;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,8 +330,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A69819E219F8D0D007C8345 /* anki_util.c in Sources */,
 				3A69815D219F62E6007C8345 /* ViewController.swift in Sources */,
+				3A6981A3219F8D0D007C8345 /* Vehicle.m in Sources */,
+				3A69819D219F8D0D007C8345 /* advertisement.c in Sources */,
+				3A6981A0219F8D0D007C8345 /* protocol.c in Sources */,
 				3A69815B219F62E6007C8345 /* AppDelegate.swift in Sources */,
+				3A6981B0219F9654007C8345 /* NBCoreBluetoothAPIMisuseGuard.m in Sources */,
+				3A6981A1219F8D0D007C8345 /* uuid.c in Sources */,
+				3A6981A2219F8D0D007C8345 /* VehiclesController.m in Sources */,
+				3A69819F219F8D0D007C8345 /* eir.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +505,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = testUIMac/testUIMac.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = Z4DQ55RV4A;
@@ -432,6 +515,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.blueludus.testUIMac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "testUIMac-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
@@ -440,7 +524,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = testUIMac/testUIMac.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = Z4DQ55RV4A;
@@ -451,6 +534,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.blueludus.testUIMac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "testUIMac-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Release;

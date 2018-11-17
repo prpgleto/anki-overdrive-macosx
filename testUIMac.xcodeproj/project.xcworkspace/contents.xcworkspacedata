@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:testUIMac.xcodeproj">
+      location = "self:/Users/paulo/Projects/MacOSX/testUIMac/testUIMac.xcodeproj">
    </FileRef>
 </Workspace>
