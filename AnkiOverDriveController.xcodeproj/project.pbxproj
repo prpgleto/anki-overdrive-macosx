@@ -22,7 +22,6 @@
 		3A6981A1219F8D0D007C8345 /* uuid.c in Sources */ = {isa = PBXBuildFile; fileRef = 3A698196219F8D0D007C8345 /* uuid.c */; };
 		3A6981A2219F8D0D007C8345 /* VehiclesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A69819A219F8D0D007C8345 /* VehiclesController.m */; };
 		3A6981A3219F8D0D007C8345 /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A69819C219F8D0D007C8345 /* Vehicle.m */; };
-		3A6981B0219F9654007C8345 /* NBCoreBluetoothAPIMisuseGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6981AF219F9654007C8345 /* NBCoreBluetoothAPIMisuseGuard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,17 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3A698157219F62E6007C8345 /* testUIMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testUIMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A698157219F62E6007C8345 /* AnkiOverDriveController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnkiOverDriveController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A69815A219F62E6007C8345 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A69815C219F62E6007C8345 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3A69815E219F62E8007C8345 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A698161219F62E8007C8345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A698163219F62E8007C8345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A698164219F62E8007C8345 /* testUIMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = testUIMac.entitlements; sourceTree = "<group>"; };
-		3A698169219F62E8007C8345 /* testUIMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUIMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A698169219F62E8007C8345 /* AnkiOverDriveControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnkiOverDriveControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A69816D219F62E8007C8345 /* testUIMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUIMacTests.swift; sourceTree = "<group>"; };
 		3A69816F219F62E8007C8345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3A698174219F62E8007C8345 /* testUIMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUIMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A698174219F62E8007C8345 /* AnkiOverDriveControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnkiOverDriveControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A698178219F62E8007C8345 /* testUIMacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUIMacUITests.swift; sourceTree = "<group>"; };
 		3A69817A219F62E8007C8345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A698187219F8BA4007C8345 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -74,8 +73,7 @@
 		3A69819A219F8D0D007C8345 /* VehiclesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehiclesController.m; sourceTree = "<group>"; };
 		3A69819B219F8D0D007C8345 /* VehiclesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehiclesController.h; sourceTree = "<group>"; };
 		3A69819C219F8D0D007C8345 /* Vehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vehicle.m; sourceTree = "<group>"; };
-		3A6981AB219F8E31007C8345 /* testUIMac-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "testUIMac-Bridging-Header.h"; path = "../testUIMac-Bridging-Header.h"; sourceTree = "<group>"; };
-		3A6981AF219F9654007C8345 /* NBCoreBluetoothAPIMisuseGuard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBCoreBluetoothAPIMisuseGuard.m; sourceTree = "<group>"; };
+		3A6981B121A0433A007C8345 /* AnkiOverDriveController-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AnkiOverDriveController-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,9 +117,9 @@
 		3A698158219F62E6007C8345 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3A698157219F62E6007C8345 /* testUIMac.app */,
-				3A698169219F62E8007C8345 /* testUIMacTests.xctest */,
-				3A698174219F62E8007C8345 /* testUIMacUITests.xctest */,
+				3A698157219F62E6007C8345 /* AnkiOverDriveController.app */,
+				3A698169219F62E8007C8345 /* AnkiOverDriveControllerTests.xctest */,
+				3A698174219F62E8007C8345 /* AnkiOverDriveControllerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,8 +134,7 @@
 				3A698160219F62E8007C8345 /* Main.storyboard */,
 				3A698163219F62E8007C8345 /* Info.plist */,
 				3A698164219F62E8007C8345 /* testUIMac.entitlements */,
-				3A6981AB219F8E31007C8345 /* testUIMac-Bridging-Header.h */,
-				3A6981AF219F9654007C8345 /* NBCoreBluetoothAPIMisuseGuard.m */,
+				3A6981B121A0433A007C8345 /* AnkiOverDriveController-Bridging-Header.h */,
 			);
 			path = testUIMac;
 			sourceTree = "<group>";
@@ -203,9 +200,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3A698156219F62E6007C8345 /* testUIMac */ = {
+		3A698156219F62E6007C8345 /* AnkiOverDriveController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3A69817D219F62E8007C8345 /* Build configuration list for PBXNativeTarget "testUIMac" */;
+			buildConfigurationList = 3A69817D219F62E8007C8345 /* Build configuration list for PBXNativeTarget "AnkiOverDriveController" */;
 			buildPhases = (
 				3A698153219F62E6007C8345 /* Sources */,
 				3A698154219F62E6007C8345 /* Frameworks */,
@@ -215,14 +212,14 @@
 			);
 			dependencies = (
 			);
-			name = testUIMac;
+			name = AnkiOverDriveController;
 			productName = testUIMac;
-			productReference = 3A698157219F62E6007C8345 /* testUIMac.app */;
+			productReference = 3A698157219F62E6007C8345 /* AnkiOverDriveController.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3A698168219F62E8007C8345 /* testUIMacTests */ = {
+		3A698168219F62E8007C8345 /* AnkiOverDriveControllerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3A698180219F62E8007C8345 /* Build configuration list for PBXNativeTarget "testUIMacTests" */;
+			buildConfigurationList = 3A698180219F62E8007C8345 /* Build configuration list for PBXNativeTarget "AnkiOverDriveControllerTests" */;
 			buildPhases = (
 				3A698165219F62E8007C8345 /* Sources */,
 				3A698166219F62E8007C8345 /* Frameworks */,
@@ -233,14 +230,14 @@
 			dependencies = (
 				3A69816B219F62E8007C8345 /* PBXTargetDependency */,
 			);
-			name = testUIMacTests;
+			name = AnkiOverDriveControllerTests;
 			productName = testUIMacTests;
-			productReference = 3A698169219F62E8007C8345 /* testUIMacTests.xctest */;
+			productReference = 3A698169219F62E8007C8345 /* AnkiOverDriveControllerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3A698173219F62E8007C8345 /* testUIMacUITests */ = {
+		3A698173219F62E8007C8345 /* AnkiOverDriveControllerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3A698183219F62E8007C8345 /* Build configuration list for PBXNativeTarget "testUIMacUITests" */;
+			buildConfigurationList = 3A698183219F62E8007C8345 /* Build configuration list for PBXNativeTarget "AnkiOverDriveControllerUITests" */;
 			buildPhases = (
 				3A698170219F62E8007C8345 /* Sources */,
 				3A698171219F62E8007C8345 /* Frameworks */,
@@ -251,9 +248,9 @@
 			dependencies = (
 				3A698176219F62E8007C8345 /* PBXTargetDependency */,
 			);
-			name = testUIMacUITests;
+			name = AnkiOverDriveControllerUITests;
 			productName = testUIMacUITests;
-			productReference = 3A698174219F62E8007C8345 /* testUIMacUITests.xctest */;
+			productReference = 3A698174219F62E8007C8345 /* AnkiOverDriveControllerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -279,7 +276,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3A698152219F62E6007C8345 /* Build configuration list for PBXProject "testUIMac" */;
+			buildConfigurationList = 3A698152219F62E6007C8345 /* Build configuration list for PBXProject "AnkiOverDriveController" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -292,9 +289,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3A698156219F62E6007C8345 /* testUIMac */,
-				3A698168219F62E8007C8345 /* testUIMacTests */,
-				3A698173219F62E8007C8345 /* testUIMacUITests */,
+				3A698156219F62E6007C8345 /* AnkiOverDriveController */,
+				3A698168219F62E8007C8345 /* AnkiOverDriveControllerTests */,
+				3A698173219F62E8007C8345 /* AnkiOverDriveControllerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -336,7 +333,6 @@
 				3A69819D219F8D0D007C8345 /* advertisement.c in Sources */,
 				3A6981A0219F8D0D007C8345 /* protocol.c in Sources */,
 				3A69815B219F62E6007C8345 /* AppDelegate.swift in Sources */,
-				3A6981B0219F9654007C8345 /* NBCoreBluetoothAPIMisuseGuard.m in Sources */,
 				3A6981A1219F8D0D007C8345 /* uuid.c in Sources */,
 				3A6981A2219F8D0D007C8345 /* VehiclesController.m in Sources */,
 				3A69819F219F8D0D007C8345 /* eir.c in Sources */,
@@ -364,12 +360,12 @@
 /* Begin PBXTargetDependency section */
 		3A69816B219F62E8007C8345 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3A698156219F62E6007C8345 /* testUIMac */;
+			target = 3A698156219F62E6007C8345 /* AnkiOverDriveController */;
 			targetProxy = 3A69816A219F62E8007C8345 /* PBXContainerItemProxy */;
 		};
 		3A698176219F62E8007C8345 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3A698156219F62E6007C8345 /* testUIMac */;
+			target = 3A698156219F62E6007C8345 /* AnkiOverDriveController */;
 			targetProxy = 3A698175219F62E8007C8345 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -515,7 +511,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.blueludus.testUIMac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "testUIMac-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "AnkiOverDriveController-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
@@ -534,7 +530,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.blueludus.testUIMac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "testUIMac-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "AnkiOverDriveController-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
@@ -556,7 +552,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.blueludus.testUIMacTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testUIMac.app/Contents/MacOS/testUIMac";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnkiOverDriveController.app/Contents/MacOS/AnkiOverDriveController";
 			};
 			name = Debug;
 		};
@@ -577,7 +573,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.blueludus.testUIMacTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testUIMac.app/Contents/MacOS/testUIMac";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnkiOverDriveController.app/Contents/MacOS/AnkiOverDriveController";
 			};
 			name = Release;
 		};
@@ -624,7 +620,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3A698152219F62E6007C8345 /* Build configuration list for PBXProject "testUIMac" */ = {
+		3A698152219F62E6007C8345 /* Build configuration list for PBXProject "AnkiOverDriveController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3A69817B219F62E8007C8345 /* Debug */,
@@ -633,7 +629,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3A69817D219F62E8007C8345 /* Build configuration list for PBXNativeTarget "testUIMac" */ = {
+		3A69817D219F62E8007C8345 /* Build configuration list for PBXNativeTarget "AnkiOverDriveController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3A69817E219F62E8007C8345 /* Debug */,
@@ -642,7 +638,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3A698180219F62E8007C8345 /* Build configuration list for PBXNativeTarget "testUIMacTests" */ = {
+		3A698180219F62E8007C8345 /* Build configuration list for PBXNativeTarget "AnkiOverDriveControllerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3A698181219F62E8007C8345 /* Debug */,
@@ -651,7 +647,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3A698183219F62E8007C8345 /* Build configuration list for PBXNativeTarget "testUIMacUITests" */ = {
+		3A698183219F62E8007C8345 /* Build configuration list for PBXNativeTarget "AnkiOverDriveControllerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3A698184219F62E8007C8345 /* Debug */,
